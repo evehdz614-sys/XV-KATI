@@ -1,0 +1,188 @@
+body{
+    margin:0;
+    font-family: Georgia, serif;
+    text-align:center;
+    background:#f8f7f4;
+    color:#333;
+}
+
+.portada{
+ min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(
+        rgba(79,93,149,0.9),
+        rgba(124,140,196,0.9)
+    );
+    color:white;
+    padding:30px;
+}
+
+.portada h1{
+    font-size:2.2rem;
+}
+
+.portada h2{
+    font-size:3rem;
+}
+
+.boton{
+    background:white;
+    color:#4F5D95;
+    padding:15px 30px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.seccion{
+    padding:30px 20px;
+}
+
+#countdown{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+
+    font-size:1.3rem;
+    color:#4F5D95;
+    font-weight:bold;
+}
+.portada-img{
+    width:100%;
+    max-width:500px;
+    height:auto;
+    display:block;
+    margin:auto;
+}
+
+.portada{
+    background:#ffffff;
+}
+.contador-img{
+    width:100%;
+    max-width:500px;
+    display:block;
+    margin:auto;
+    margin-bottom:30px;
+}
+.contador-seccion{
+    position:relative;
+}
+
+#countdown{
+    position:absolute;
+
+    top:66%;
+    left:50%;
+
+    font-size:3rem;
+letter-spacing:10px;
+
+    transform:translate(-50%,-50%);
+
+  
+
+   color:rgb(87, 87, 182);
+
+    padding:15px 25px;
+
+    border-radius:20px;
+
+    display:flex;
+    gap:20px;
+
+    font-weight:bold;
+
+    box-shadow:0 0 15px rgba(0,0,0,.15);
+}
+
+.ubicacion{
+    padding:40px 20px;
+}
+
+
+.boton-mapa{
+    display:inline-block;
+    background: #4F5D95;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.ubicacion h2{
+    color:#4F5D95;
+    font-size:2.5rem;
+}
+
+.ubicacion p{
+    font-size:1.2rem;
+    margin-bottom:30px;
+}
+
+
+
+.bienvenida{
+    background:#ffffff;
+    padding:80px 30px;
+}
+
+.bienvenida h2{
+    color:#4F5D95;
+    font-size:2.5rem;
+    margin-bottom:30px;
+}
+
+.bienvenida p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+    font-size:1.2rem;
+    color:#555;
+}
+.boton-musica{
+    background:#4F5D95;
+    color:white;
+
+    border:none;
+
+    padding:15px 30px;
+
+    border-radius:30px;
+
+    font-size:1rem;
+
+    cursor:pointer;
+
+    margin:20px 0;
+}
+.confirmacion{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.confirmacion h2{
+    color:#4F5D95;
+}
+
+.boton-whatsapp{
+    display:inline-block;
+
+    background:#25D366;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 30px;
+
+    border-radius:30px;
+
+    font-weight:bold;
+
+    margin-top:20px;
+}
