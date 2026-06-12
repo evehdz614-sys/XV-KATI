@@ -79,25 +79,25 @@ body{
     top:66%;
     left:50%;
 
-    font-size:3rem;
-letter-spacing:10px;
-
     transform:translate(-50%,-50%);
 
-  
-
-   color:rgb(87, 87, 182);
-
-    padding:15px 25px;
-
-    border-radius:20px;
-
     display:flex;
-    gap:20px;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+
+    gap:10px;
+
+    width:90%;
+
+    font-size:1.2rem;
+    letter-spacing:0;
+
+    color:rgb(87,87,182);
 
     font-weight:bold;
 
-    box-shadow:0 0 15px rgba(0,0,0,.15);
+    white-space:nowrap;
 }
 
 .ubicacion{
@@ -185,4 +185,24 @@ letter-spacing:10px;
     font-weight:bold;
 
     margin-top:20px;
+}
+@media (max-width: 600px){
+
+    #countdown{
+        font-size:1.2rem;
+        gap:10px;
+        letter-spacing:0;
+        top:65%;
+        width:90%;
+    }
+
+}
+@media (max-width: 600px){
+
+    #countdown{
+        font-size:0.9rem;
+        gap:6px;
+        width:95%;
+    }
+
 }
