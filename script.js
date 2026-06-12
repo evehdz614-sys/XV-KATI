@@ -26,10 +26,7 @@ setInterval(() => {
 
     document.getElementById("countdown").innerHTML =
 `
-<div>${dias}</div>
-<div>${horas}</div>
-<div>${minutos}</div>
-<div>${segundos}</div>
+${dias} ${horas} ${minutos} ${segundos}
 `;
 
 }, 1000);
